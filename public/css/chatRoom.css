@@ -1,0 +1,142 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fa;
+  white-space: pre-line;
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  overflow: hidden;
+}
+
+.chat-box {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 15px;
+  max-width: 80%;
+}
+
+.message.user {
+  justify-content: flex-end;
+}
+
+.message.bot {
+  justify-content: flex-start;
+}
+
+.message .content {
+  padding: 12px 18px;
+  border-radius: 20px;
+  background-color: #e6e6e6;
+  word-wrap: break-word;
+  font-size: 16px;
+  max-width: 75%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message.user .content {
+  background-color: #4CAF50;
+  color: white;
+  border-bottom-right-radius: 0;
+}
+
+.message.bot .content {
+  background-color: #ffffff;
+  color: #333;
+  border-bottom-left-radius: 0;
+}
+
+.input-group {
+  margin-top: auto;
+}
+
+.input-group input {
+  border-radius: 30px;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-group button {
+  border-radius: 30px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.input-group button:hover {
+  background-color: #45a049;
+}
+
+.input-group input:focus {
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+  border-color: #4CAF50;
+}
+
+.message-time {
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.message.user .message-time {
+  text-align: right;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.chat-box {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+.input-group .form-control {
+    border-radius: 20px;
+    padding: 15px;
+}
+.input-group .btn {
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+}

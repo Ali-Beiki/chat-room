@@ -1,0 +1,6 @@
+{
+    "name": "chat room",
+    "port": 80,
+    "icon":"/images/icon.png",
+    "title":"Chat Room"
+}
